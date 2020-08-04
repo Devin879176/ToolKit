@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="detectRect.cpp" />
+    <ClCompile Include="FWQShelter.cpp" />
+    <ClCompile Include="src\HistAn.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DarkChannel.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FileKit.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\TFConnectedAnalysis.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TFForegroundDetect.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TFMOD.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TFVIBE.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DecodeVideo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TFVEP.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{38af8406-5f79-4b3c-a169-fe8a1eb827e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{1cb88cfa-3f19-492b-a324-d3f85f7aa8a2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\HistAn.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DarkChannel.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FileKit.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TFForegroundDetect.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TFMOD.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TFVIBE.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libVDT.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DecodeVideo.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TFVATrafficMacro.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TFVATrafficComp.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TFConnectedAnalysis.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
